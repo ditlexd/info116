@@ -1,0 +1,583 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#"
+     xml:base="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#End_Date -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#End_Date"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Has_Participant -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Has_Participant">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Participated_In"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Has_Subevent -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Has_Subevent">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Has_Superevent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Has_Superevent -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Has_Superevent"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Participated_In -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Participated_In"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Start_Date -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Start_Date"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Africa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Africa">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#LocalWars"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Asia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Asia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#LocalWars"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Aviation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Aviation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Technology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#ChangingBorders -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#ChangingBorders">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Political/Government"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Community -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Community">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Disaster"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#ComputerTechnology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#ComputerTechnology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Technology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Conflict -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Conflict">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Conflict"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Recorded_Events"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Constitution -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Constitution">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Laws"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Crimes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Crimes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Society"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Cults -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Cults">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#SmallReligions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Disaster -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Disaster">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Recorded_Events"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Economy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Economy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Society"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Europe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Europe">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#LocalWars"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#HistoricalEvents -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#HistoricalEvents"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#HomeTechnology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#HomeTechnology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Technology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#HumanRights -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#HumanRights">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Laws"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Laws -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Laws">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Political/Government"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#LocalWars -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#LocalWars">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#War"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#MainReligions -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#MainReligions">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#ReligiousEvents"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#MassSuicide -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#MassSuicide">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Community"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Medicine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Medicine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Technology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Middle_East -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Middle_East">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#LocalWars"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Movements -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Movements">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Society"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Natural_Disaster -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Natural_Disaster">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Disaster"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#North-America -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#North-America">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#LocalWars"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Oceania -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Oceania">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#LocalWars"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Politics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Politics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Political/Government"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Recorded_Events -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Recorded_Events">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#HistoricalEvents"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#ReligiousEvents -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#ReligiousEvents">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Society"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#SmallReligions -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#SmallReligions">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#ReligiousEvents"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Society -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Society">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Recorded_Events"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#South-America -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#South-America">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#LocalWars"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#SpaceRace -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#SpaceRace">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#SpaceTech"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#SpaceTech -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#SpaceTech">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Technology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Technological -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Technological">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Disaster"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Technology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Technology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Recorded_Events"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#WWI -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#WWI">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#WorldWar"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#WWII -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#WWII">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#WorldWar"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#War -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#War">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Conflict"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#WarTechnology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#WarTechnology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Technology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#WorldWar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#WorldWar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#War"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Political/Government -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Political/Government">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Recorded_Events"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Dropping_The_Atomic_Bomb -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Dropping_The_Atomic_Bomb">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#WWII"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Fall_of_Soviet_Union -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Fall_of_Soviet_Union">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#ChangingBorders"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Fall_of_the_Berlin_Wall -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Fall_of_the_Berlin_Wall">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#ChangingBorders"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#First_Gulf_war -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#First_Gulf_war">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Middle_East"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Holocaust -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Holocaust">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#WWII"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Moon_Landing -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Moon_Landing">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#SpaceRace"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Sputnik_Satelite_Launch -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Sputnik_Satelite_Launch">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#SpaceRace"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#The_Korean_War -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#The_Korean_War">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Asia"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#The_Vietnam_War -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#The_Vietnam_War">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Asia"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Titanic_Sinking -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Titanic_Sinking">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Technological"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#WWII -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#WWII">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#WorldWar"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Charles_Lindbergh&apos;s_transatlantic_flight -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Charles_Lindbergh&apos;s_transatlantic_flight">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Aviation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Civil_Rights_Ac_(USA) -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Civil_Rights_Ac_(USA)">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Constitution"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Heavens_Gate_Mass_Suicide_(USA) -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Heavens_Gate_Mass_Suicide_(USA)">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Cults"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Impeachment_of_Bill_Clinton_(USA) -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Impeachment_of_Bill_Clinton_(USA)">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Politics"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#JFK_Assasination_(USA) -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#JFK_Assasination_(USA)">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Crimes"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#The_Great_Depression_(USA) -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#The_Great_Depression_(USA)">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Economy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Tokyo_Underground_Terrorist_Attacks_(Japan) -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Tokyo_Underground_Terrorist_Attacks_(Japan)">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Crimes"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Watergate_Scandal_(USA) -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Watergate_Scandal_(USA)">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Politics"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Womens_Right_to_Vote_(USA) -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Womens_Right_to_Vote_(USA)">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ditlef/ontologies/2018/9/untitled-ontology-10#Constitution"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+

@@ -1,0 +1,78 @@
+﻿Events marked with <<<<<<
+
+HistoricalEventshatChangedSociety
+	CreativeWorks
+		Articles
+			ww1Article
+			TitanicArticle
+
+	HumanCaused
+		War
+			Local wars
+				MassKillings
+					Armenian genocide
+				The Vietnam War in the 1960s and early 1970s <<<<<
+				The Korean War in the early 1950s <<<<<
+				The Persian Gulf War in 1991 <<<<<
+			World Wars
+				WWII <<<<
+					Dropping the A-bomb <<<<<
+				WWII <<<<<
+				MassKillings
+					Holocaust <<<<<
+
+		Political/Policy/Government
+			ChangingBorders
+				Fall of the Berlin wall <<<<
+				The breakup of the Soviet Union in the early 1990s <<<<<
+			Laws
+				HumanRights
+				Constitution
+					Women right to vote <<<<<
+					Civil rights act <<<<<
+			Politics
+				The Impeachment of President Bill Clinton in 1998 <<<<<
+				Watergate Scandal 1970s <<<<<
+
+		Technology
+			SpaceTech
+				Moon landing <<<<<
+				Sputnik satelite launch 11950s <<<<<
+			WarTechonlogy
+			Medicine
+				Penecilin
+				Hygiene
+			HouseTech
+				WashingMachine
+			CompuerTech
+			Aviation
+				Charles Lindbergh's transatlantic flight in 1927 <<<<
+
+		Societal
+			Crimes
+				Assasination of JFK <<<<<
+				Tokyo underground terror attacks <<<<<
+			ReligiousEvents
+				MainReligions
+				SmallReligions
+					Cults
+						Heavens gate <<<<<<<
+						(Her eller under Disaster?)
+			Movements
+			Economy
+				US deperssion 1930s <<<<<<
+
+		Disaster
+			Technological
+				Chernobyl
+				Titanic <<<<<
+				RocketsThatBlewUp
+			War
+				D-Day (?)
+			Community
+				MassSuicide
+					Heavens gate
+
+	Non-HumanCaused
+
+		Disasters
