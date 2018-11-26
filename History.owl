@@ -1,0 +1,1319 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/henri/ontologies/2018/9/history-ontology"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/henri/ontologies/2018/9/history-ontology">
+    <Prefix name="" IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">An ontology that describes the concepts of historical events, and relevant articles depicting these events.</Literal>
+    </Annotation>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasCasualties"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#NavalEvent"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasTitle"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Clinton_fears_cult_copycats"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#belongsToCountry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#CivilRightEvent"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#North-East_Asia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#TechnologicalEvent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#HistoricalEvent"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Post_World_War_II"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#publishedBy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Irish_Independent"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Discovery_of_penicillin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Holocaust"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#BoomEvent"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Daily_News"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Break_up_of_Yugoslavia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#ComputerTechEvent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#SpaceEvent"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#USA_Today"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Newcastle_Journal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#President_Kennedy_Assasinated"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasLocation"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/source"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Nagasaki_bombing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Spanish_civil_war"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#RecessionEvent"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Martin_Luther_King_assassination"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#London"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Germany_Will_Lose_Austria"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#WW1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#LandBoarderEvent"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Wall_Street_Journal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#July_20,_1969:_One_Giant_Leap_For_Mankind"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#The_Great_Depression"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#depicts"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Watergate_scandal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Jonestone_massacre"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Clinton_Lewinsky_scandal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#WarEquipmentEvent"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Womens_right_to_vote"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Germany"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasSuperEvent"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Wall_St._In_Panic_As_Stock_Crashes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#The_New_York_Times"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#The_roaring_twenties"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasSubEvent"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasEndDate"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#isParticipant"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#description"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#England"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasImportance"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Heaven&apos;s_gate_massacre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#EconomicalEvent"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Hiroshima_bombing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#AviationEvent"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#First_Transatlantic_Flight"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Titanic"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasPages"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasParticipant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#WorldWarEvent"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#The_Guardian"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#USA"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#First_Nonstop_Flight_Crosses_Atlantic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#The_anti_Apartheid_movement"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Syrian_civil_war"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#France"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Norway"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasPublisher"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Japan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#WW2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#LocalWarEvent"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Floating_Titanic_sinking_NY_show"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#MedicineEvent"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Passengers_On_The_Titanic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Eastern-Europe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#AssasinationEvent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Newspaper"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Territorial_evolution_of_Germany"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasStartDate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Moon_Landing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Daily_Mail"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#ScandalEvent"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasSubject"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Titanic_musical"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Soviet_Union"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#WarEvent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Articles"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#CulturalEvent"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#World_Report"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#TragicalEvent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#PoliticalEvent"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Dissolution_of_the_Soviet_Union"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Hiroshima"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#The_Manhattan_Project"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Location"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Country"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#New_York"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#publishedDate"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasArticle"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Atlantic_Sea"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Nagasaki"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#JFK_assassination"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#AssasinationEvent"/>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#PoliticalEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#AviationEvent"/>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#TechnologicalEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#BoomEvent"/>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#EconomicalEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#CivilRightEvent"/>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#PoliticalEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#ComputerTechEvent"/>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#TechnologicalEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#CulturalEvent"/>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#HistoricalEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#EconomicalEvent"/>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#HistoricalEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#LandBoarderEvent"/>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#PoliticalEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#LocalWarEvent"/>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#WarEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#MedicineEvent"/>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#TechnologicalEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#NavalEvent"/>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#TechnologicalEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#PoliticalEvent"/>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#HistoricalEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#RecessionEvent"/>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#EconomicalEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#ScandalEvent"/>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#PoliticalEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#SpaceEvent"/>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#TechnologicalEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#TechnologicalEvent"/>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#HistoricalEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#TragicalEvent"/>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#HistoricalEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#WarEquipmentEvent"/>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#TechnologicalEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#WarEvent"/>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#HistoricalEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#WorldWarEvent"/>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#WarEvent"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#HistoricalEvent"/>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Newspaper"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Location"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Atlantic_Sea"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#LandBoarderEvent"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Break_up_of_Yugoslavia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#ScandalEvent"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Clinton_Lewinsky_scandal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Articles"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Clinton_fears_cult_copycats"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Newspaper"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Daily_Mail"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Newspaper"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Daily_News"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#MedicineEvent"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Discovery_of_penicillin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#LandBoarderEvent"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Dissolution_of_the_Soviet_Union"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Location"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Eastern-Europe"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Country"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#England"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Articles"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#First_Nonstop_Flight_Crosses_Atlantic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#AviationEvent"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#First_Transatlantic_Flight"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Articles"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Floating_Titanic_sinking_NY_show"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Country"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#France"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Country"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Germany"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Articles"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Germany_Will_Lose_Austria"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Location"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Hiroshima"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#TragicalEvent"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Hiroshima_bombing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#TragicalEvent"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Holocaust"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Newspaper"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Irish_Independent"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#AssasinationEvent"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#JFK_assassination"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Country"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Japan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#TragicalEvent"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Jonestone_massacre"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Location"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#London"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#AssasinationEvent"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Martin_Luther_King_assassination"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#SpaceEvent"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Moon_Landing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Location"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Nagasaki"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#TragicalEvent"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Nagasaki_bombing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Location"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#New_York"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Newspaper"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Newcastle_Journal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Location"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#North-East_Asia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Country"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Norway"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Articles"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Passengers_On_The_Titanic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#BoomEvent"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Post_World_War_II"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Articles"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#President_Kennedy_Assasinated"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Country"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Soviet_Union"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#LocalWarEvent"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Spanish_civil_war"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#LocalWarEvent"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Syrian_civil_war"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#LandBoarderEvent"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Territorial_evolution_of_Germany"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#RecessionEvent"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#The_Great_Depression"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Newspaper"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#The_Guardian"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#WarEquipmentEvent"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#The_Manhattan_Project"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Newspaper"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#The_New_York_Times"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#CivilRightEvent"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#The_anti_Apartheid_movement"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#BoomEvent"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#The_roaring_twenties"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#NavalEvent"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Titanic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#TragicalEvent"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Titanic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#CulturalEvent"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Titanic_musical"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Country"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#USA"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Newspaper"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#USA_Today"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#WorldWarEvent"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#WW1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#WorldWarEvent"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#WW2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Articles"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Wall_St._In_Panic_As_Stock_Crashes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Newspaper"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Wall_Street_Journal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#ScandalEvent"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Watergate_scandal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#CivilRightEvent"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Womens_right_to_vote"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Newspaper"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#World_Report"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#TragicalEvent"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Heaven&apos;s_gate_massacre"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Articles"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#July_20,_1969:_One_Giant_Leap_For_Mankind"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#depicts"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Clinton_fears_cult_copycats"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Heaven&apos;s_gate_massacre"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#publishedBy"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Clinton_fears_cult_copycats"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#World_Report"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#isParticipant"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#England"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#WW1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#isParticipant"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#England"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#WW2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#depicts"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#First_Nonstop_Flight_Crosses_Atlantic"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#First_Transatlantic_Flight"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#publishedBy"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#First_Nonstop_Flight_Crosses_Atlantic"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#The_Guardian"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#depicts"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Floating_Titanic_sinking_NY_show"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Titanic_musical"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#publishedBy"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Floating_Titanic_sinking_NY_show"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Irish_Independent"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#isParticipant"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#France"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#WW1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#isParticipant"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#France"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#WW2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#isParticipant"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Germany"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#WW1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#isParticipant"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Germany"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#WW2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#belongsToCountry"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Hiroshima"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Japan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasSuperEvent"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Holocaust"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#WW2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasArticle"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#JFK_assassination"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#President_Kennedy_Assasinated"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#isParticipant"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Japan"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#WW2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#belongsToCountry"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#New_York"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#USA"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#isParticipant"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Norway"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#WW2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#depicts"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Passengers_On_The_Titanic"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Titanic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#publishedBy"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Passengers_On_The_Titanic"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#The_Guardian"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#depicts"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#President_Kennedy_Assasinated"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#JFK_assassination"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#publishedBy"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#President_Kennedy_Assasinated"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#The_New_York_Times"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#isParticipant"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Soviet_Union"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#WW1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#isParticipant"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Soviet_Union"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#WW2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasArticle"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#The_Great_Depression"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Wall_St._In_Panic_As_Stock_Crashes"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasArticle"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Titanic"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Passengers_On_The_Titanic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasArticle"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Titanic_musical"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Floating_Titanic_sinking_NY_show"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasLocation"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Titanic_musical"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#New_York"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#isParticipant"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#USA"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#WW1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#isParticipant"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#USA"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#WW2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasSubEvent"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#WW2"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Holocaust"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#depicts"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Wall_St._In_Panic_As_Stock_Crashes"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#The_Great_Depression"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#publishedBy"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Wall_St._In_Panic_As_Stock_Crashes"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Wall_Street_Journal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#depicts"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#July_20,_1969:_One_Giant_Leap_For_Mankind"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Moon_Landing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#publishedBy"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#July_20,_1969:_One_Giant_Leap_For_Mankind"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#USA_Today"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasSubject"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Clinton_fears_cult_copycats"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Mass suicide</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasTitle"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Clinton_fears_cult_copycats"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Clinton fears cult copycats</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#publishedDate"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Clinton_fears_cult_copycats"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1997-03-29T00:00:01</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasSubject"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#First_Nonstop_Flight_Crosses_Atlantic"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Aviation</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasTitle"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#First_Nonstop_Flight_Crosses_Atlantic"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">First Nonstop Flight Crosses Atlantic</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#publishedDate"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#First_Nonstop_Flight_Crosses_Atlantic"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1939-03-28T00:00:01</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasStartDate"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#First_Transatlantic_Flight"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1927-05-21T12:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasSubject"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Floating_Titanic_sinking_NY_show"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Socioeconomical differences on the Titanic.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasTitle"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Floating_Titanic_sinking_NY_show"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Floating Titanic sinking NY show</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#publishedDate"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Floating_Titanic_sinking_NY_show"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1997-03-29T00:00:01</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasCasualties"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Hiroshima_bombing"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">120000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasImportance"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Hiroshima_bombing"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#positiveInteger">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasStartDate"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Hiroshima_bombing"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1945-08-06T00:00:01</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasEndDate"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Holocaust"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1945-09-02T00:00:01</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasImportance"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Holocaust"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#positiveInteger">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasStartDate"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Holocaust"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1941-01-01T00:00:01</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasStartDate"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Jonestone_massacre"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1978-11-18T00:00:01</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasStartDate"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Moon_Landing"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1969-07-20T00:00:01</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasStartDate"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Nagasaki_bombing"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1945-08-09T00:00:01</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasSubject"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Passengers_On_The_Titanic"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Industrial specifications of the Titanic</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasTitle"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Passengers_On_The_Titanic"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Passengers On The Titanic</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#publishedDate"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Passengers_On_The_Titanic"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1912-04-10T00:00:01</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasPages"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#President_Kennedy_Assasinated"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#positiveInteger">15</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasTitle"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#President_Kennedy_Assasinated"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Kennedy is killed by sniper as he rides in car in Dallas: Johnson sworn in on plane</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#publishedDate"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#President_Kennedy_Assasinated"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1963-11-23T00:00:01</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasCasualties"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Spanish_civil_war"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">700000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasStartDate"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Spanish_civil_war"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1936-07-17T00:00:01</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasCasualties"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Syrian_civil_war"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">470000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasStartDate"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Syrian_civil_war"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2011-03-11T00:00:01</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasStartDate"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Titanic"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1912-04-10T00:00:01</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasStartDate"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Titanic_musical"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1997-04-23T00:00:01</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasCasualties"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#WW1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">14000000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasEndDate"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#WW1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1918-11-11T00:00:01</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasStartDate"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#WW1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1914-07-28T00:00:01</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasCasualties"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#WW2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">70000000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasEndDate"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#WW2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1945-09-02T13:30:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasImportance"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#WW2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#positiveInteger">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasStartDate"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#WW2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1939-09-01T14:00:01</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasTitle"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Wall_St._In_Panic_As_Stock_Crashes"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Wall St. In Panic As Stocks Crash</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#publishedDate"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Wall_St._In_Panic_As_Stock_Crashes"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1929-10-24T00:00:01</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasImportance"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Womens_right_to_vote"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#positiveInteger">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasStartDate"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Heaven&apos;s_gate_massacre"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1997-03-26T00:00:01</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasPages"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#July_20,_1969:_One_Giant_Leap_For_Mankind"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#positiveInteger">12</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasSubject"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#July_20,_1969:_One_Giant_Leap_For_Mankind"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Moon landing</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasTitle"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#July_20,_1969:_One_Giant_Leap_For_Mankind"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">One Giant Leap for Mankind</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#publishedDate"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#July_20,_1969:_One_Giant_Leap_For_Mankind"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1969-07-21T00:00:01</Literal>
+    </DataPropertyAssertion>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#depicts"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasArticle"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasParticipant"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#isParticipant"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasPublisher"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#publishedBy"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasSubEvent"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasSuperEvent"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#belongsToCountry"/>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Location"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#depicts"/>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Articles"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasArticle"/>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#HistoricalEvent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasLocation"/>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#HistoricalEvent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasParticipant"/>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#HistoricalEvent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasPublisher"/>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Newspaper"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasSubEvent"/>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#HistoricalEvent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasSuperEvent"/>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#HistoricalEvent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#isParticipant"/>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Country"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#publishedBy"/>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Articles"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#belongsToCountry"/>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Country"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#depicts"/>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#HistoricalEvent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasArticle"/>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Articles"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasLocation"/>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Location"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasParticipant"/>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Country"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasPublisher"/>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Articles"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasSubEvent"/>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#HistoricalEvent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasSuperEvent"/>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#HistoricalEvent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#isParticipant"/>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#HistoricalEvent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#publishedBy"/>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Newspaper"/>
+    </ObjectPropertyRange>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasEndDate"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasStartDate"/>
+    </FunctionalDataProperty>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasCasualties"/>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#HistoricalEvent"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasEndDate"/>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#HistoricalEvent"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasImportance"/>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#HistoricalEvent"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasPages"/>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Articles"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasStartDate"/>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#HistoricalEvent"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasSubject"/>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Articles"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasTitle"/>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Articles"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#publishedDate"/>
+        <Class IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Articles"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasCasualties"/>
+        <Datatype abbreviatedIRI="xsd:positiveInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasEndDate"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasImportance"/>
+        <Datatype abbreviatedIRI="xsd:positiveInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasPages"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasStartDate"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasSubject"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasTitle"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#publishedDate"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#description"/>
+        <IRI>http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#Moon_Landing</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Apollo 11 was the spaceflight that landed the first two people on the Moon.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#WW2</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">WW2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#depicts</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">depicts</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#description</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Short description (1-2 sentences) of an individual in the ontology.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasArticle</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hasArticle</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasImportance</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Importance based on the article &quot;The Most Important Events of the Century From the Viewpoint of the People&quot;.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasImportance</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Scale from 1-18, whereas 1 is the most important.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasLocation</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hasLocation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasPages</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Fictive amount of pages, just an illustration of how we could use the ontology in query cases.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasParticipant</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hasParticipant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasPublisher</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hasPublished</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasSubEvent</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A smaller event that is a part of the same historical event (i.e. Holocaust is a sub event of World War 2)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasSubEvent</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hasSubEvent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasSubject</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Subject of an article.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasSuperEvent</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A general event that contains sub events of the same historical event.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#hasSuperEvent</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hasSuperEvent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#isParticipant</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">isParticipant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#publishedBy</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">publishedBy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/henri/ontologies/2018/9/untitled-ontology-21#publishedDate</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The date an article was published.</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
